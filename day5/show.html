@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 8px;
+        }
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header{
+           background-color:  rgb(255,76,79);
+           height: 64px;
+        }
+        .container{
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .icon{
+            width: 32px;
+            height: 32px;
+        }
+        .header-title{
+            display: flex;
+            flex: 1;
+            flex-direction: row;
+            align-items: center;
+        }
+        .nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            flex: 1;
+        }
+        .clearfex{
+            clear:both;
+            
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .nav ul>li{
+            display: flex;
+            flex-direction: row;
+        }
+        .nav ul>li>a{
+            display: inline-block;     
+            padding: 8px; 
+            color:black; 
+        }
+        .section-title{
+            text-align: center;
+        }
+        .gallery{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .container.column{
+            flex-direction: column;
+        }
+        footer{
+            background-color: brown;
+            min-height: 400px;
+        }
+        footer .left{
+            color: cadetblue;
+            padding: 8px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div>
+                <img src="./images/1.png" alt="1" class="icon" >
+                <span>邓邓邓的爱好</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">电影</a></li>
+                    <li><a href="#">小说</a></li>
+                    <li><a href="#">运动</a></li>
+                </ul>
+            </nav>
+
+
+        </div>
+    </header>
+    <section>
+        <div class="container column">
+            <h2 class="section-title">喜欢的电影</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="./images/01.jpg" alt="">
+                    <h4>春潮</h4>
+                </li>
+                <li>
+                    <img src="./images/2.jpg" alt="">
+                    <h4>天气之子</h4>
+                </li>
+                <li>
+                    <img src="./images/03.jpg" alt="">
+                    <h4>真心半解</h4>
+                </li>
+                <li>
+                    <img src="./images/04.jpg" alt="">
+                    <h4>黑水</h4>
+                </li>
+               
+            </ul>
+        </div>       
+    </section>
+    <footer>
+        <div class="container">
+            <div class="left">
+              哈哈哈哈哈哈哈哈哈哈
+            </div>
+        </div>
+    </footer>   
+</body>
+</html>
