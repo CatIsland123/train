@@ -9,6 +9,7 @@
         body{
             margin: 0;
             padding: 8px;
+            background-color: antiquewhite;
         }
         ul{
             list-style-type: none;
@@ -17,8 +18,9 @@
         }
         
         header{
-           background-color:  rgb(255,76,79);
+           background-color:darkslategrey;
            height: 64px;
+           
         }
         .container{
             width: 1200px;
@@ -72,8 +74,8 @@
             flex-direction: column;
         }
         footer{
-            background-color: brown;
-            min-height: 400px;
+            background-color:darkslategrey;
+            min-height: 150px;
         }
         footer .left{
             color: cadetblue;
@@ -91,9 +93,9 @@
             </div>
             <nav class="nav">
                 <ul>
-                    <li><a href="#">电影</a></li>
-                    <li><a href="#">小说</a></li>
-                    <li><a href="#">运动</a></li>
+                    <li><a href="#movie">电影</a></li>
+                    <li><a href="#dm">动漫</a></li>
+                    <li><a href="#book">书</a></li>
                 </ul>
             </nav>
 
@@ -101,33 +103,85 @@
         </div>
     </header>
     <section>
-        <div class="container column">
+        <div class="container column" id="movie">
             <h2 class="section-title">喜欢的电影</h2>
             <ul class="gallery">
                 <li>
-                    <img src="./images/01.jpg" alt="">
-                    <h4>春潮</h4>
+                    <a href="https://movie.douban.com/subject/27002635/?tag=%E7%83%AD%E9%97%A8&from=gaia_video"><img src="./images/01.jpg" alt=""></a>
+                    <h4>唐顿庄园</h4>
                 </li>
                 <li>
-                    <img src="./images/2.jpg" alt="">
-                    <h4>天气之子</h4>
+                    <a href="https://movie.douban.com/subject/30318116/?tag=%E7%83%AD%E9%97%A8&from=gaia_video"><img src="./images/02.jpg" alt=""></a>
+                    <h4>利刃出鞘</h4>
                 </li>
                 <li>
-                    <img src="./images/03.jpg" alt="">
+                    <a href="https://movie.douban.com/subject/33420285/?tag=%E7%83%AD%E9%97%A8&from=gaia"><img src="./images/03.jpg" alt=""></a>
                     <h4>真心半解</h4>
                 </li>
                 <li>
-                    <img src="./images/04.jpg" alt="">
+                    <a href="https://movie.douban.com/subject/30331959/?tag=%E7%83%AD%E9%97%A8&from=gaia"><img src="./images/04.jpg" alt=""></a>
                     <h4>黑水</h4>
                 </li>
                
             </ul>
-        </div>       
+        </div>  
+        <div class="container column" id="dm">
+            <h2 class="section-title">动漫</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="./images/dm01.jpg" alt="">
+                    <h4>大欺诈师</h4>
+                </li>
+                <li>
+                    <img src="./images/dm02.jpg" alt="">
+                    <h4>破晓之翼</h4>
+                </li>
+                <li>
+                    <img src="./images/dm03.jpg" alt="">
+                    <h4>鬼刃之刀</h4>
+                </li>
+                <li>
+                    <img src="./images/dm04.jpg" alt="">
+                    <h4>海贼王</h4>
+                </li>
+               
+            </ul>
+        </div>            
+        <div class="container column" id="book">
+            <h2 class="section-title">书</h2>
+            <ul class="gallery">
+                <li>
+                    <img src="./images/book01.jpg" alt="">
+                    <h4>三体</h4>
+                </li>
+                <li>
+                    <img src="./images/book02.jpg" alt="">
+                    <h4>局外人</h4>
+                </li>
+                <li>
+                    <img src="./images/book03.jpg" alt="">
+                    <h4>解忧杂货店</h4>
+                </li>
+                <li>
+                    <img src="./images/book04.jpg" alt="">
+                    <h4>放风筝的人</h4>
+                </li>
+               
+            </ul>
+        </div>            
     </section>
     <footer>
         <div class="container">
             <div class="left">
-              哈哈哈哈哈哈哈哈哈哈
+                “满地都是六便士，他却抬头看见了月亮。”
+
+                银行家查尔斯，人到中年，事业有成，为了追求内心隐秘的绘画梦想，突然抛妻别子，弃家出走。他深知：人的每一种身份都是一种自我绑架，唯有失去是通向自由之途。
+                
+                在异国他乡，他贫病交加，对梦想却愈发坚定执着。他说：我必须画画，就像溺水的人必须挣扎。
+                
+                在经历种种离奇遭遇后，他来到南太平洋的一座孤岛，同当地一位姑娘结婚生子，成功创作出一系列惊世杰作。就在此时，他被绝症和双目失明击倒，临死之前，他做出了让所有人震惊的决定……
+                
+                人世漫长得转瞬即逝，有人见尘埃，有人见星辰。查尔斯就是那个终其一生在追逐星辰的人。
             </div>
         </div>
     </footer>   
