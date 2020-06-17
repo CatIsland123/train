@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+.screen{
+    position: relative;
+    overflow: hidden;
+    height: 500px;
+    width: 900px; 
+    margin: 50px  auto;
+}
+.icon{
+     height: 500px;
+     width: 900px; 
+     border-radius:25px;
+     border: 1px solid cornflowerblue;
+     box-shadow: 2px 2px 16px 2px rgba(0, 0, 0, 0.6);
+     
+}
+.screen_in{
+    text-align: center;
+
+}
+.screen_in>input hover{
+    border-radius: 8px;
+    border: 1px solid sandybrown;
+    
+}
+#screenText{
+    color: sandybrown;
+    height: 24px;
+}
+.send,.clear{
+     height: 32px;
+     display: inline-block;
+     cursor: pointer;
+     border-radius: 8px;
+     border: 1px solid #815537;
+     background: sandybrown;
+   
+}
+
+#footer{
+    background-color:  chocolate;
+    height: 32px;
+    text-align: center;
+   
+}
+
